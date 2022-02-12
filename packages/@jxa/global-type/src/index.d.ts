@@ -1,11 +1,13 @@
-import {
-    Application as Application_,
-    ObjectSpecifier as ObjectSpecifier_,
-    Automation as Automation_
-} from "@jxa/types";
+// @ts-ignore
+import {Application as Application_} from "@jxa/types";
+// @ts-ignore
+import {ObjectSpecifier as ObjectSpecifier_} from "@jxa/types";
+// @ts-ignore
+import {Automation as Automation_} from "@jxa/types";
 
 declare global {
-    const Application: typeof Application_;
+    // @ts-ignore
+  const Application: typeof Application_;
     const Automation: typeof Automation_;
     const ObjectSpecifier: typeof ObjectSpecifier_;
 
