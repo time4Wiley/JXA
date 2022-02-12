@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "lerna": "^3.18.3",
+    "lerna": "^4.0.0",
     "make-dir": "^3.0.0"
   },
   "name": "root",
