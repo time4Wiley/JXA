@@ -1,5 +1,5 @@
 // import { example } from "./example";
-import "@jxa/global-type";
+import {Application} from "@jxa/types";
 
 const theBrainApp = Application('TheBrain 12');
 theBrainApp.activate();
